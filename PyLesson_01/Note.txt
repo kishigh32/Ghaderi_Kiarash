@@ -1,0 +1,73 @@
+Python
+Languages like C use a compiler that translates all of the source code into machine code before it can be run.
+Some languages use an interpreter to translate source code into machine code as it is being run. These are known as interpreted languages.
+Python code is compiled, but not into machine code that can be directly executed by the processor. Python compiles your source code into bytecode, which is an intermediate between your source code and your computer’s processor. When you execute your compiled code, the Python interpreter translates the bytecode into machine code as it runs. This allows Python to carry some of the advantages of both compiled and interpreted languages. 
+
+
+
+http://puremonkey2010.blogspot.tw/2012/02/quick-python-6-strings-part-1.html
+
+
+
+print("hey\ahey")
+print("hey\bhey")
+print("hey\nhey")
+print("hey\rhey")
+print("hey\they")
+print("hey\vhey")
+
+
+https://en.wikipedia.org/wiki/ASCII_art
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+print("H   H EEEEE L     L      OOO      W   W  OOO  RRRR  L     DDDD  !!")
+print("H   H E     L     L     O   O     W W W O   O R   R L     D  D  !!")
+print("HHHHH EEEEE L     L     O   O     W W W O   O RRRR  L     D  D  !!")
+print("H   H E     L     L     O   O  ,,  W W  O   O R   R L     D  D")
+print("H   H EEEEE LLLLL LLLLL  OOO  ,,   W W   OOO  R   R LLLLL DDDD  !!")
+print("  |\_/|  ")
+print(" / @ @ \ ")
+print("( > º < )")
+print(" `>>x<<´ ")
+print(" /  O  \ ")
+print("             .--------.")
+print("(\_/)       .        .|")
+print("(0.0)      .        . |")
+print("(> <)     :--------. #|")
+print("          | # # # | # |")
+print("          | # # # | # |")
+print("          | # # # | # |")
+print("          | # # # | # |")
+print("          | # # # | # |")
+print("          | # # # |")
+
+
+
+
+https://www.google.com/search?q=ASCII+art&espv=2&biw=935&bih=938&site=webhp&source=lnms&tbm=isch&sa=X&ved=0ahUKEwjR5YKYzu7OAhVX0GMKHR1_BpYQ_AUIBigB#imgdii=-EhVXMR6KeVBiM%3A%3B-EhVXMR6KeVBiM%3A%3BmixqaUUv-L5M1M%3A&imgrc=-EhVXMR6KeVBiM%3A
+
+print("          ;AHHHHHHHHHHBr")
+print("         @@@@@@@@@@@@@@@@")
+print("       h@&5s.,,,,,,,,,,r#@3")
+print("      @@@...::::::::::::,@@@")
+print("     ;@A .,,:;;;;;;::,:::@@@")
+print("   i@@#r,BBA;;;;;;;AMM;:, 9@")
+print(" :H@@2 .;@@M:;;;;;:B@@;::.r#A:")
+print("@@@2:.::,..,::::::,...,;::,,@@#")
+print("@@: .:;:;@@@@@@@@@@@@@;:;;::r@@")
+print("@G ,;;:#@           i@r,;;;:.&@")
+print("@#.:;;,@@           ,@r,;;;:.9@")
+
