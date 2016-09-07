@@ -11,5 +11,5 @@ print(line3)
 L = 4
 W = 6
 H = 5
-print("The surface area of your rectangle is" ,L * W * H)
+print("The surface area of your rectangle is" ,2*L*W + 2*L*H + 2*H*W)
 
