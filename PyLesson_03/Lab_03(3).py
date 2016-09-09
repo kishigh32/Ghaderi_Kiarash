@@ -1,0 +1,6 @@
+height = float (input("How tall are you in meters?"))
+weight = float (input("What is your weight in kilograms?"))
+age = int (input("How old are you?"))
+print("Your shoes' size based on your height and weight and age should be" ,height*weight/age + 4, ".")
+truth = input("Do your shoes' size match the number?")
+print("Hahaha.... gues what? I was joking with you!!! How am I supposed to know your shoes' size? Be realastic!")

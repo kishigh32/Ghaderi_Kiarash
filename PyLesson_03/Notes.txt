@@ -1,0 +1,26 @@
+To instruct the program to take one of these actions, all we have to do is call the function by name. We do this by entering the name of the function, followed by a set of parentheses ().
+
+We can take user input from the keyboard by calling the function input() and entering a prompt into the parentheses.
+
+
+Casting allows us to take one kind of data and turn it into another. We do this by wrapping the desired data in a casting statement, 
+which is the type of data that you want to cast the object into, followed by a set of parentheses with the desired data inside. Here is a visual representation of the format of a casting statement.
+
+
+dataType( dataValue ) 
+
+
+To use our multiplication program as an example…
+num = int (input( "please enter an integer: "))
+num2 = int (input("please enter another integer: "))
+
+
+print(num, " multiplied by " ,num2, " is " , num*num2,".")
+
+
+Our program now produces the following output…
+
+
+please enter an integer: 5
+please enter another integer: 6
+5  multiplied by  6  is  30 .
