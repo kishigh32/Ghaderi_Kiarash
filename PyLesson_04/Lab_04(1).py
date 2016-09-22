@@ -1,3 +1,4 @@
+
 def format(txt, prc):
     print("{:>10} {:.>10.2f}".format(txt, prc))
 
