@@ -1,5 +1,5 @@
 def format(ret):
-    output = "{:<10.3f}".format(ret)
+    output = "{:.3f}".format(ret)
     return output
 
 r = float(input("Enter the the interest rate:"))
