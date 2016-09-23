@@ -7,6 +7,6 @@ P = float(input("Enter the initial money you recieved from bank:"))
 n = float(input("Enter the number of times the loan is compounded per year:"))
 t = float(input("Enter the life of the loan in years:"))
 total = P * (1 + r / n)**(n * t)
-ret = total * 12 / t
-print("Your total payment is" ,total)
+ret = total / (12 * t)
+print("Your total payment is" ,format(total))
 print("However, your return amount is" ,format(ret))

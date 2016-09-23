@@ -1,6 +1,6 @@
 
 def format(txt, prc):
-    print("{:>10} {:.>10.2f}".format(txt, prc))
+    print("*{:>10} {:.>10.2f}\n".format(txt, prc))
 
 
 txt1 = input("Please enter item 1:")
@@ -20,9 +20,9 @@ print("<<<<<<<___Receipt___>>>>>>>")
 format(txt1, prc1)
 format(txt2, prc2)
 format(txt3, prc3)
-print("\n Subtotal: ......" ,subtotal)
-print("      Tax: ......" ,tax)
-print("    Total: ......" ,total)
+format("  Subtotal:" ,subtotal)
+format("       Tax:" ,tax)
+format("     Total:" ,total)
 print("_____________________________\n  Thank you for your support")
 
 
