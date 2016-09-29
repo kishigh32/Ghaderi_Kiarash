@@ -1,7 +1,8 @@
 
 
-def calcPerim(perimeter):
-    output = "{:0.5f}".calcPerim(perimeter)
+
+def format(perimeter):
+    output = "{:0.5f}".format(perimeter)
     return output
 
 
@@ -10,7 +11,7 @@ width = float(input("Enter the width of the rectangle in feet:"))
 perimeter = 2 * (length + width)
 
 
-print("Your rectangle is" ,calcPerim(perimeter), "sq ft around.")
+print("Your rectangle is" ,format(perimeter), "sq ft around.")
     
     
 
