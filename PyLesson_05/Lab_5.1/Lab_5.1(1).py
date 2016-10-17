@@ -1,8 +1,3 @@
-def format(average):
-    output = "{:.2f}".format(average)
-    return output
-
-
 grad1 = input("Please enter your first class letter grade:")
 grad2 = input("Please enter your second class letter grade:")
 grad3 = input("Please enter your third class letter grade:")
@@ -12,18 +7,17 @@ grad6 = input("Please enter your sixth class letter grade:")
 grad7 = input("Please enter your seventh class letter grade:")
 
 
-def calcPoints(grad):
+def calcPoints(gpa):
     if grad == "A":
-        return 4.0
+        gpa = 4.0
     elif grad == "B":
-        return 3.0
+        gpa = 3.0
     elif grad == "C":
-        return 2
+        gpa = 2
     elif grad == "D":
-        return 1.0
+        gpa = 1.0
     else:
-        return 0.0
+        gpa = 0.0
+    average = (calcPoints(gpa1) + calcPoints(gpa2) + calcPoints(gpa3) + calcPoints(gpa4) + calcPoints(gpa5) + calcPoints(gpa6) + calcPoints(gpa7))/7
+    print("Your GPA is {:0.2f}".format(average) + ".")
 
-average = (calcPoints(grad1), + calcPoints(grad2), + calcPoints(grad3), + calcPoints(grad4), + calcPoints(grad5), + clacPoints(grad6), + calcPoints(grad7),) / 7
-
-print("Your GPA is" ,format(average), ".")
