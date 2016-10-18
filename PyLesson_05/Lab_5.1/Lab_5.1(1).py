@@ -7,17 +7,17 @@ grad6 = input("Please enter your sixth class letter grade:")
 grad7 = input("Please enter your seventh class letter grade:")
 
 
-def calcPoints(gpa):
+def calcPoints(grad):
     if grad == "A":
-        gpa = 4.0
+        return 4.0
     elif grad == "B":
-        gpa = 3.0
+        grad = 3.0
     elif grad == "C":
-        gpa = 2
+        grad = 2.0
     elif grad == "D":
-        gpa = 1.0
+        grad = 1.0
     else:
-        gpa = 0.0
-    average = (calcPoints(gpa1) + calcPoints(gpa2) + calcPoints(gpa3) + calcPoints(gpa4) + calcPoints(gpa5) + calcPoints(gpa6) + calcPoints(gpa7))/7
+        grad = 0.0
+    average = 1234
     print("Your GPA is {:0.2f}".format(average) + ".")
 
