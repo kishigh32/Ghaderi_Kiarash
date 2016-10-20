@@ -11,13 +11,15 @@ def calcPoints(grad):
     if grad == "A":
         return 4.0
     elif grad == "B":
-        grad = 3.0
+        return 3.0
     elif grad == "C":
-        grad = 2.0
+        return 2.0
     elif grad == "D":
-        grad = 1.0
+        return 1.0
     else:
-        grad = 0.0
-    average = 1234
-    print("Your GPA is {:0.2f}".format(average) + ".")
+        return 0.0
+
+average = (calcPoints(grad1) + calcPoints(grad2) + calcPoints(grad3) + calcPoints(grad4) + calcPoints(grad5) + calcPoints(grad6) + calcPoints(grad7)) / 7
+
+print("Your GPA is {:0.2f}".format(average) + ".")
 
