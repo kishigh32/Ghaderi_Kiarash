@@ -10,3 +10,4 @@ total = P * (1 + r / n)**(n * t)
 ret = total / (12 * t)
 print("Your total payment is" ,format(total))
 print("However, your return amount is" ,format(ret))
+
