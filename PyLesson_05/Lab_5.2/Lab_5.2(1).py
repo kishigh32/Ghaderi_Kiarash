@@ -1,7 +1,7 @@
 
 def recursion():
     dis = input("Do you think I ever been discriminated?")
-    if dis == "yes" or dis == "Yes":
+    if dis == "yes" or dis == "Yes" or dis == "YES":
         print("That's right. I have been discriminated my whole life!")
     else:
         print("Well... I have")
@@ -29,7 +29,11 @@ def recursion():
             else:
                 print("Well... I don't remember very well, but I think it was for my second year")
         else:
-            
+            if num > 1756 and num <= 2016:
+                print("The number you guessed is very close. I was discriminated 2016 times since I came to US")
+            else:
+                print("Not in range")
+                recursion()
 
 recursion()
 
