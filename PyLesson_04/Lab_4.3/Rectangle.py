@@ -1,6 +1,5 @@
 length = 99
 width = 22
-avg = 0
 
 def setNums():
     global length, width
@@ -8,11 +7,10 @@ def setNums():
     width = float(input("Enter the width of your rectangle in feet:"))
 
 def calcPerim():
-    global avg
-    avg = "{:0.5f}".format(2*(length+width))
-    
+    output = "{:0.5f}".format(2*(length+width))
+    return output
 
 setNums()
 calcPerim()
 
-print("Your rectangle is" ,avg, "ft around.")
+print("Your rectangle is" ,calcPerim(), "ft around.")

@@ -1,7 +1,6 @@
 num1 = 3
 num2 = 2
 num1 = 1
-avg = 0
 
 def setNums():
     global num1, num2, num3
@@ -10,9 +9,9 @@ def setNums():
     num3 = float(input("Enter your third number:"))
 
 def average():
-    global avg
-    avg = "{:0.5f}".format((num1 + num2 + num3)/3)
+    output = "{:0.5f}".format((num1 + num2 + num3)/3)
+    return output
 
 setNums()
 average()
-print("The average of",num1,",",num2,"and",num3,"is",avg,".")
+print("The average of",num1,",",num2,"and",num3,"is",average(),".")
