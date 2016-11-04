@@ -1,8 +1,8 @@
 num1 = int(input("Enter your maximum number please: "))
 num2 = int(input("Enter the distance between each number please: "))
+output = ""
 
-def printTri():
-    for i in range(2, len(num1) + num2, num2):
-        print(num1[0:i])
+for i in range(num2, num1 + 1, num2):
+    output = output + str(i) + "    "
+print(output)
 
-printTri()
