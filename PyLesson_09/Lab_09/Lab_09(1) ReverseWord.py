@@ -1,13 +1,21 @@
 words = ["I", "am", "Kiarash", "Ghaderi", "KG"]
 
-output = ""
-j = 0
+print("In order...")
 
+output = ""
 for i in words:
     output += i + " "
 
-print("In order:", output)
+print(output)
 print()
+print("Reversed...")
 
-for k in range(len(words), 0, -1):
-    
+
+def reverse(words):
+    newput = ""
+    for k in range(len(words),0,-1):
+        newput += words[k-1] + " "
+    print(newput)
+
+reverse(words)
+
