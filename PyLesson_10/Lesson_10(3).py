@@ -27,7 +27,7 @@ for i in range(0, 3):
     wordsList.append([])
     for j in range(0, 4):
         wordsList[i].append(spList[spot])
-        output += "{:10}".format(wordsList[i][j])
+        output += wordsList[i][j]
         spot += 1
     print(output)
 
