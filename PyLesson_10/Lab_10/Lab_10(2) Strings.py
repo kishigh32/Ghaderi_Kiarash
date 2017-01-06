@@ -1,7 +1,7 @@
 go = input("Enter 16 strings please: ")
 
 spList = go.split(" ")
-print(spList)
+print(spList, "\n")
 
 wordsList = []
 
