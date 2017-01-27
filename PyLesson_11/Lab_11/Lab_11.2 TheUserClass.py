@@ -22,21 +22,21 @@ class User:
         return self.avatar
 
     def getUserID(self):
-        return selfuserID
+        return self.userID
     
     def __str__(self):
-        return "Custom info...\nFirst Name: " + self.firstName() + "\nLast Name: " + self.lastName() + "\nAvatar: " + self.avatar() + "User ID#: " + str(self.userID())
+        print("Custom info...\nFirst Name: ", self.firstName, "\nLast Name: ", self.lastName, "\nAvatar: ", self.avatar, "\nUser ID#: ", self.userID)
 
     
 def main():
-    first = input("Enter your first name please: ")
-    last = input("Enter yout last name please: ")
-    avatar = input("Enter your avatar please: ")
-    avt = input("Would you like to use a public avatar?(y or n) ")
+    fName = input("Enter your first name please: ")
+    lName = input("Enter yout last name please: ")
+    avt = input("Would you like to use a public avatar?(y or n): ")
     if avt == "n":
-        return user1 == User(firstName, lastName)
+        user1 = User(fName, lName)
     else:
-        return user1 == User(first, last, avatar)
+        avat = input("Enter your avatar please: ")
+        user1 = User(fName, lName, avat)
 
     print(user1.__str__())
 
