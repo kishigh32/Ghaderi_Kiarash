@@ -1,3 +1,11 @@
+* {
+	color: blue;
+}
+
+p:not(.same) {
+	color: red;
+}
+
 tr:nth-child(odd) > td:nth-child(even){
 	background-color: yellow;
 }
