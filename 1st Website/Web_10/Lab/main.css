@@ -1,5 +1,5 @@
 * {
-	margin: 10px;
+	margin: 0px;
 	padding: 0px;
 }
 
@@ -20,9 +20,9 @@ body {
 }
 
 #bigWrapper {
-	border: 3px dashed blue;
+	border: 3px solid blue;
 	width: 1020px;
-	margin: 22%;
+	margin: 50px auto;
 	text-align: center;
 }
 
@@ -54,7 +54,7 @@ body {
 #sideNews {
 	float: center;
 	width: 220px;
-	margin: 150px 400px;
+	margin: 20px 410px;
 	background: yellow;
 	color: blue;
 	border: 2px solid blue;
@@ -65,6 +65,8 @@ body {
 	text-align: center;
 	padding: 20px;
 	border-top: 2px solid blue;
+	color: blue;
+	background-color: yellow;
 }
 
 article {
