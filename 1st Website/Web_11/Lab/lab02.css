@@ -4,11 +4,11 @@
 }
 
 h1 {
-	font: bold 20px Tahoma;
+	font: bold 40px Tahoma;
 }
 
 h2 {
-	font: bold 14px Tahoma;
+	font: bold 20px Tahoma;
 }
 
 header, section, footer, aside, nav, article, hgroup {
@@ -30,15 +30,15 @@ body {
 }
 
 #topHeader {
-	background: yellow;
-	border: 3px solid green;
+	background: red;
+	border: 3px dashed blue;
 	padding: 20px;
 }
 
 #topMenu {
-	border: red;
-	background: blue;
-	color: white;
+	border: 3px dashed red;
+	background: yellow;
+	color: blue;
 }
 
 #topMenu li {
@@ -54,7 +54,7 @@ body {
 }
 
 #mainSection {
-	border: 1px solid blue;
+	border: 1px solid red;
 	-webkit-box-flex: 1;
 	margin: 20px;
 	padding: 20px;
@@ -63,10 +63,10 @@ body {
 }
 
 #sideNews {
-	border: 1px solid red;
+	border: 3px dashed blue;
 	margin: 20px 0px;
 	padding: 30px;
-	background: purple;
+	background: yellow;
 	-webkit-box-ordinal-group: 1;
 	-webkit-box-flex: 1;
 }
@@ -74,6 +74,6 @@ body {
 #pageFooter {
 	text-align: center;
 	padding: 20px;
-	border-top: 2px solid green;
+	border-top: 5px solid blue;
 }
 
