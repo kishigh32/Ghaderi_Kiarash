@@ -22,14 +22,14 @@ body {
 #bigWrapper {
 	border: 3px solid blue;
 	width: 1020px;
-	margin: 50px auto;
+	margin: 20px auto;
 	text-align: center;
 }
 
 #topHeader {
 	color: blue;
 	background: yellow;
-	padding: 30px;
+	padding: 20px;
 }
 
 #topMenu {
@@ -40,21 +40,22 @@ body {
 #topMenu li {
 	display: inline-block;
 	list-style: none;
-	padding: 2px;
+	padding: 5px;
 	font: bold 14px Tahoma;
 }
 
 #mainSection {
 	float: left;
-	width: 500px;
-	margin: 15px;
+	width: 660;
+	margin: 30px;
 	color: red;
 }
 
 #sideNews {
-	float: center;
+	float: left;
 	width: 220px;
-	margin: 20px 410px;
+	margin: 20px 0px;
+	padding: 30px;
 	background: yellow;
 	color: blue;
 	border: 2px solid blue;
