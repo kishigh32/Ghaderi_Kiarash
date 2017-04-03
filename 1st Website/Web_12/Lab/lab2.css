@@ -1,0 +1,26 @@
+body { 
+	text-align: center;
+}
+
+#box {
+	font-size: 50px;
+	border: 3px solid yellow;
+	display: block;
+	margin: 150px auto;
+	color: white;
+	background: -webkit-radial-gradient(center, circle, blue 16%, red 84%);
+	width: 300px;
+	height: 300px;
+	-webkit-border-radius: 20px;
+	-webkit-box-shadow: rgb(110, 110, 110) 10px 9px 8px;
+	-webkit-transition: -webkit-transform 1.5s;
+}
+
+#box > p {
+	padding: 20px;
+	text-shadow: black 1px 2px 3px;
+}
+
+#box:hover {
+	-webkit-transform: translate(30px, 40px) rotate(300deg) scale(0.75);
+}

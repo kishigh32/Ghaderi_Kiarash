@@ -5,12 +5,26 @@
 
 h1 {
 	font: bold 20px Tahoma;
+	background: -webkit-radial-gradient(center, circle, blue 16%, red 84%);
+	-webkit-border-radius: 3px;
+	-webkit-transition: -webkit-transform 0.5s;
+}
+
+h1:hover {
+	-webkit-transform: scale(2, 2);
 }
 
 h2 {
 	font: bold 14px Tahoma;
+	-webkit-border-radius: 3px;
+	-webkit-transition: -webkit-transform 0.5s;
 }
 
+h2:hover {
+	-webkit-transform: scale(1.2, 1.2);
+	color: blue;
+}
+	
 header, section, footer, aside, nav, article, hgroup {
 	dsiplay: black;
 }
@@ -52,8 +66,8 @@ body {
 }
 
 #topMenu li:hover {
-	-webkit-transform: scale(1.2, 1.2);
-	color: yellow;
+	-webkit-transform: scale(1.7, 1.7);
+	color: red;
 }
 
 #flexDiv {
