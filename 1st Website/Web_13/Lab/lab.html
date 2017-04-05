@@ -1,0 +1,26 @@
+<html>
+<head>
+</head>
+<body>
+
+<form>
+	Weight: <input type = "text" size = 20 maxLength = 20 id = "weight" value = "Enter Weight in lb"/>
+	<br/>
+	<br/>
+	Height: <input type = "text" size =20 maxLength = 20 id = "height" value = "Enter Height in inch"/>
+	<br/>
+	<br/>
+	<input type = "button" value = "Calculate" onclick = "calcPerim()"/>
+</form>
+
+<script type = "text/javascript">
+	function calcPerim() {
+		var w = document.getElementById("weight").value;
+		var h = document.getElementById("height").value;
+		document.write("Your BMI is... " + ((w*703)/(h*h)));
+	}
+</script>
+
+
+</body>
+</html>
