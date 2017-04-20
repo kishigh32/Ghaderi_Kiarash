@@ -13,5 +13,5 @@ function shapes()
 	canvas.fill();
 }
 
-window.addEventListener("load, shapes, false);
+window.addEventListener("load", shapes, false);
 	
