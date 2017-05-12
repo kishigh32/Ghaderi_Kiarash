@@ -12,20 +12,20 @@ function drag() {
 }
 
 function startDrag(e) {
-	var pic = '<img id = "mantisShrimp" src = "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTnXDsqYNNJQxt2GhrLG_ToNwE6PLLLP9axi8hstLRMMEFYG-JV">';
+	var pic = '<img id = "mantisShrimp" src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKMTMZ8zBjhzQ1vl-MRcqYZ1nfPBKFskY--p2sp7w7eYus_Izi">';
 	e.dataTransfer.setData('picture', pic);
 }
 
 function dragEnter(e) {
 	e.preventDefault();
-	leftbox.style.background = "#80657A";
-	leftbox.style.border = "3px solid green";
+	leftbox.style.background = "blue";
+	leftbox.style.border = "5px solid yellow";
 }
 
 function dragLeave(e) {
 	e.preventDefault();
-	leftbox.style.background = "white";
-	leftbox.style.border = "3px solid purple");
+	leftbox.style.background = "blue";
+	leftbox.style.border = "5px solid yellow";
 }
 
 function drop(e) {
@@ -34,7 +34,7 @@ function drop(e) {
 }
 
 function endDrag(e) {
-	pic = e.target
+	pic = e.target;
 	pic.style.visibility = "hidden";
 }
 
